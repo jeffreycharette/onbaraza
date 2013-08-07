@@ -1,0 +1,478 @@
+/************************* GLOBAL STYLES *******************/
+	body{
+		background: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size:13px;
+	}
+
+	.main-wrapper
+	{
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: 100%;
+		width: 100%;
+		overflow:hidden;
+	}
+
+	h1 {
+		margin: 0 0 30px 0;
+		color: #F26F21;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.clearfix:before,
+	.clearfix:after {
+	    content: " "; /* 1 */
+	    display: table; /* 2 */
+	}
+
+	.clearfix:after {
+	    clear: both;
+	}
+
+	/**
+	 * For IE 6/7 only
+	 * Include this rule to trigger hasLayout and contain floats.
+	 */
+	.clearfix {
+	    *zoom: 1;
+	}
+
+	a, a:visited {
+		color: #0076BF;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #0076BF;
+		text-decoration: none;
+	}
+
+/********************* / GLOBAL STYLES ********************/
+
+/**********************  THEME COLORS ***********************/
+
+		.main-color{
+			color:#f89406;
+		}
+		.main-br-color{
+			background-color:#f89406;
+		}
+
+		.main-color-line{
+			border-bottom:2px solid #f89406;
+			display:inline-block;
+			padding-bottom:1px;
+		}
+		.color-white{
+			color:rgba(250, 250, 250 , 0.02);
+		}
+		.color-white:hover{
+			color:rgba(250, 250, 250 , 1);
+		}
+
+/********************** /THEME COLORS *************************/
+
+/********************** CUSTOM BACKGROUND STYLES *************************/
+
+	.lines-bg-color {
+		background: #f89406 url(../img/line_bg.png) top left repeat;
+	}
+	.dott-bg{
+		background-image:url(../img/section-top-bg.png)repeat;
+	}
+
+/************************ HEADER ************************************************/
+
+	.header {
+		position: fixed;
+		display: block;
+		width: 100%;
+		height: 181px;
+		z-index: 5;
+	}
+
+	.header-inner {
+		position: relative;
+		display: block;
+		margin: 0 auto;
+		width: 1020px;
+		height: 181px;
+		background: url('../images/header.gif') no-repeat;
+	}
+
+	/************************ HEADER NAV ************************************************/
+
+	.header-inner nav {
+		position: absolute;
+		right: 40px;
+		bottom: 0;
+		display: block;
+		padding: 0 6px 0 6px;
+		width: auto;
+		height: 43px;
+		background: #0075BF;
+	}
+
+	.header-inner nav ul {
+		margin: 0;
+		listing-style: none;
+	}
+
+	.header-inner nav ul li {
+		display: inline-block;
+		margin: 0;
+		listing-style: none;
+	}
+
+	.header-inner nav ul li a {
+		margin: 6px 0 0 0;
+		padding: 0 10px 0 10px;
+		width: auto;
+		line-height: 30px;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+	.header-inner nav ul li a:hover {
+		background: #F26F21;
+		border-radius: 5px;
+	}
+
+	.header-inner nav ul li.active a {
+		background: #F26F21;
+		border-radius: 5px;
+	}
+
+/************************ WELCOME PAGE ************************************************/
+
+.welcome {
+	display: block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	padding: 181px 0 0 0;
+	width: 1020px;
+	height: auto;
+	background: url('../images/sidebar_bg.gif') left top repeat-y;
+}
+
+.welcome-left {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 40px 20px 20px 0;
+	width: 682px;
+	height: auto;
+}
+
+.welcome-left article {
+	display: block;
+	padding: 0 0 30px 0;
+}
+
+.welcome-left article h3 {
+	margin: 0 0 5px 0;
+	color: #0076BF;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.welcome-left article h4 {
+	margin: 0 0 15px 0;
+	color: #0076BF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.welcome-left article p {
+	margin: 0 0 30px 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.welcome-left article ul {
+	margin: 0 0 30px 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.welcome-left article ul li {
+	margin: 0 0 10px 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.welcome-left article .underline {
+	text-decoration: underline;
+}
+
+.welcome-right {
+	display: block;
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 40px 0 0 0;
+	width: 338px;
+	height: auto;
+}
+
+.welcome-right p {
+	display: block;
+}
+
+.welcome-right h3 {
+	margin: 0 auto 20px auto;
+	width: 195px;
+	color: #F26F21;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+.welcome-right .location {
+	margin: 0 auto 30px auto;
+	width: 195px;
+	color: #F26F21;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.welcome-right .register {
+	display: block;
+	margin: 0 auto 40px auto;
+	padding: 15px 0 15px 0;
+	width: 195px;
+	background: #F26F21;
+	border-radius: 5px;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+.welcome-right .register:hover {
+	text-decoration: none;
+}
+
+.welcome-right .social {
+	display: block;
+	margin: 0 auto 30px auto;
+	padding: 15px 0 15px 0;
+	width: 195px;
+	background: #FFF;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.welcome-right .social h4 {
+	margin: 0 0 20px 0;
+	color: #0076BF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.welcome-right .social .facebook {
+	margin-right: 30px;
+}
+
+.welcome .africa {
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	width: 338px;
+	height: 240px;
+	background: url('../images/africa.gif') left top no-repeat;
+}
+
+/************************ AGENDA PAGE ************************************************/
+
+.agenda {
+	display: block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	padding: 211px 0 0 0;
+	width: 1020px;
+	height: auto;
+}
+
+.agenda-left {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 480px;
+	height: auto;
+}
+
+.agenda-right {
+	display: block;
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 480px;
+	height: auto;
+}
+
+.agenda article h4 {
+	display: block;
+	margin: 0 0 20px 0;
+	color: #0076BF;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.agenda article h5 {
+	display: block;
+	margin: 0;
+	padding: 0 0 0 15px;
+	line-height: 28px;
+	background: #0076BF;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.agenda article ul {
+	display: block;
+	margin: 0 0 30px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.agenda article ul li {
+	display: block;
+	margin: 0;
+	padding: 20px 15px 20px 15px;
+	border-bottom: 1px solid #0076BF;
+}
+
+.agenda article ul li h6 {
+	display: block;
+	margin: 0 0 10px 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.agenda article ul li span {
+	display: block;
+	margin: 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+/************************ HOTEL & TRAVEL PAGE ************************************************/
+
+.hotel-travel {
+	display: block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	padding: 211px 0 0 0;
+	width: 1020px;
+	height: auto;
+}
+
+.hotel-travel p {
+	margin: 0 0 30px 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.hotel-travel-left {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 480px;
+	height: auto;
+}
+
+.hotel-travel-right {
+	display: block;
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 480px;
+	height: auto;
+}
+
+.hotel-travel article h4 {
+	display: block;
+	margin: 0 0 20px 0;
+	color: #0076BF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.hotel-travel article h4 span {
+	display: block;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	text-transform: none;
+}
+
+.hotel-travel article h5 {
+	display: block;
+	margin: 0 0 10px 0;
+	color: #0076BF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/************************ CONTACT US PAGE ************************************************/
+
+.contact-us {
+	display: block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	padding: 211px 0 0 0;
+	width: 1020px;
+	min-height: 800px;
+	height: auto;
+}
+
+.contact-us p {
+	margin: 0 0 30px 0;
+	color: #5E5F61;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.contact-us h5 {
+	display: block;
+	margin: 0 0 10px 0;
+	color: #0076BF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
