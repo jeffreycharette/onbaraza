@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.onbaraza\.com$ [NC]
+RewriteRule ^(.*)$ http://onbaraza.com/$1 [R=301,L]
+
+
+
+
+
+
+
+ 
